@@ -1,0 +1,123 @@
+.blogWrapper{
+    width: 100%;
+}
+.userEmail{
+    font-weight: bold;
+}
+.addBlogs{
+    text-align: right;
+    margin: 10px 0 15px 0;
+}
+.addBlogButton{
+    height:48px;
+    border:1px solid #3592FF;
+    color:#fff;
+    font-size:16px;
+    font-weight: bold;
+    background-color:#3592FF;
+    border-radius: 4px;
+}
+.blogBox{
+    border: 1px solid #f7f7f7;
+    background: rgba(17, 17, 17, 0.6);
+    border-radius: 7px;
+    word-break: break-all;
+    margin: 10px;
+    padding: 10px;
+}
+.blogTitle{
+    text-transform: capitalize;
+}
+.blogDescription{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.displyFlex{
+    display: flex;
+}
+.Addlbl{
+    color:#444444;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.spacing{
+    margin:25px 10px;
+    text-align: left;
+}
+.errorMsg{
+    text-align: left;
+    color: red;
+    font-size: 14px;
+}
+.addBlogLBL{
+    font-weight: bold;
+    margin-right: 10px;
+    width: 125px;
+}
+.formsGroup{
+    display: flex;
+    align-items: flex-start;
+}
+.input{
+    height:48px;
+    background-color:#fff;
+    font-size:16px;
+    width: 100% !important;
+    border:none;
+    font-weight: normal;
+    border: 1px solid #DFDEDE;
+    color:#AAAAAA;
+    outline:none !important;
+}
+.addBtn{
+    height:48px;
+    border:1px solid #3592FF;
+    color:#fff;
+    font-size:16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 0 10px;
+    /* font-family: Roboto; */
+    background-color:#3592FF;
+}
+.addBlogPage{
+    background-color:#ffffff;
+    width:300px;
+    height:auto;
+    /* min-width:300px;
+    max-width:383px; */
+    padding:18px;
+    border: 1px solid #DFDEDE;
+    margin:auto;
+}
+.textarea{
+    height:200px;
+    width:100%;
+    background-color:#fff;
+    font-size:16px;
+    border:none;
+    font-weight: normal;
+    border: 1px solid #DFDEDE;
+    color:#AAAAAA;
+    outline:none !important;
+}
+.formContent{
+    margin-top: 5px;
+    height: auto;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.flexItem{
+    display: flex;
+    justify-content: space-between;
+}
+.marginLeft{
+    margin-left: 10px;
+}
+.cursorPointer{
+    cursor: pointer;
+}
